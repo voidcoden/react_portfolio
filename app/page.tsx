@@ -1,9 +1,27 @@
-import Image from "next/image";
+'use client';
+import About from '@/components/About';
+import Contacts from '@/components/Contacts';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
+import { useEffect } from 'react';
 
 export default function Home() {
+
+  useEffect( () => {
+    (
+      async () => {
+          const LocomotiveScroll = (await import('locomotive-scroll')).default
+          const locomotiveScroll = new LocomotiveScroll();
+      }
+    )()
+  }, [])
+
   return (
-    <h1 className="text-bold text-teal-500">
-      Hello World
-    </h1>
+    <>
+      <About />
+      <Experience />
+      <Projects />
+      <Contacts />
+    </>
   );
 }
