@@ -6,8 +6,8 @@ const Navbar = () => {
 
     return (
 <div className="relative flex justify-center px-10">
-    <nav className="flexBetween super-max-container padding-container z-30 py-10 fixed top-0 w-full bg-white">
-        <Link href="/" className="bold-52">
+    <nav className="flexBetween super-max-container padding-container z-30 py-10 fixed top-0 w-full bg-white-0">
+        <Link href="/" className="bold-20 sm:bold-32 xl:bold-52">
             Syafiq.Azman
         </Link>
 
