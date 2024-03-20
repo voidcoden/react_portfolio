@@ -15,7 +15,8 @@ module.exports = {
         green: {
           50: '#91B958',
           60: '#A5DAB5',
-          70: '#96BAAB'
+          70: '#96BAAB',
+          80: '#78C7A5'
         },
         gray: {
           10: '#EEEEEE',

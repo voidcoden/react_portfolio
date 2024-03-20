@@ -4,6 +4,7 @@ import Contacts from '@/components/Contacts';
 import Experience from '@/components/Experience';
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
+import TechStack from '@/components/TechStack';
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
+      <TechStack />
       <Projects />
       <Contacts />
     </>

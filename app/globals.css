@@ -54,6 +54,14 @@ body {
   }
 
   /* FONTS */
+  .light-24 {
+    @apply text-[24px] font-[300] leading-[120%];
+  }
+
+  .light-20 {
+    @apply text-[20px] font-[300] leading-[120%];
+  }
+
   .regular-64 {
     @apply text-[64px] font-[400] leading-[120%];
   }
@@ -116,6 +124,10 @@ body {
 
   .bold-32 {
     @apply text-[32px] font-[700] leading-[120%];
+  }
+
+  .bold-24 {
+    @apply text-[24px] font-[700];
   }
 
   .bold-20 {
