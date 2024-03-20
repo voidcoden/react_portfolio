@@ -39,7 +39,8 @@ module.exports = {
         // box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color].
         hardShadowLight: '7px 7px 0px 0px rgba(0,0,1)',
         hardShadowRight: '10px 10px 0px 0px rgba(0,0,1)',
-        hardShadowLeft: '-10px 10px 0px 0px rgba(0,0,1)'
+        hardShadowLeft: '-10px 10px 0px 0px rgba(0,0,1)',
+        hardShadowWhite: '10px 10px 0px 0px rgba(255,255,255)',
       },
 
       backgroundImage: {
