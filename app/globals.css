@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -20,6 +20,10 @@ body {
   
 
   /* Container */
+  .super-max-container {
+    @apply mx-auto max-w-[1540px];
+  }
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
@@ -81,8 +85,12 @@ body {
     @apply text-[14px] font-[600];
   }
 
-  .medium-25 {
-    @apply text-[25px] font-[600];
+  .medium-32 {
+    @apply text-[32px] font-[600];
+  }
+
+  .bold-128 {
+    @apply text-[128px] font-[700] leading-[120%];
   }
 
   .bold-88 {

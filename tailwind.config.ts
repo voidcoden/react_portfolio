@@ -11,6 +11,7 @@ module.exports = {
         green: {
           50: '#91B958',
           60: '#A5DAB5',
+          70: '#96BAAB'
         },
         gray: {
           10: '#EEEEEE',
@@ -31,7 +32,10 @@ module.exports = {
       },
 
       boxShadow: {
-        hard: '4px 4px 6px -1px rgba(0, 0, 0, 1), 2px 2px 4px -1px rgba(0, 0, 0, 0.06)'
+        // box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color].
+        hardShadowLight: '7px 7px 0px 0px rgba(0,0,1)',
+        hardShadowRight: '10px 10px 0px 0px rgba(0,0,1)',
+        hardShadowLeft: '-10px 10px 0px 0px rgba(0,0,1)'
       },
 
       backgroundImage: {

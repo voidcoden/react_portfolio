@@ -3,33 +3,34 @@ import Link from "next/link"
 import Image from "next/image"
 
 const Navbar = () => {
-  return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-5">
-        <Link href="/" className="bold-40">
+
+    return (
+<div className="relative flex justify-center px-10">
+    <nav className="flexBetween super-max-container padding-container z-30 py-10 fixed top-0 w-full bg-white">
+        <Link href="/" className="bold-52">
             Syafiq.Azman
         </Link>
 
-        <div className="relative">
-            <div className="hidden bg-green-50 relative z-10 p-1 lg:flex">
-                <ul className="hidden h-full gap-5 lg:flex">
+        <div className="hidden bg-green-50 relative z-10 px-5 pt-1 xl:flex shadow-hardShadowLight">
+            <ul className="hidden h-full gap-5 lg:flex">
                 {NAV_LINKS.map((link) => (
-                    <Link href={link.href} key={link.key} className="medium-25 flexCenter cursor-pointer pb-1.5 transition-all hover:underline">
-                    {link.label}
+                    <Link href={link.href} key={link.key} className="medium-32 flexCenter cursor-pointer pb-1.5 transition-all hover:underline">
+                        {link.label}
                     </Link>
                 ))}
-                </ul>
-            </div>
-        <div className="hidden absolute top-1.5 left-1.5 w-full h-full bg-black z-0 lg:flex"></div>
+            </ul>
         </div>
 
         <Image 
             src="menu.svg"
             alt="menu"
-            width={32}
-            height={32}
-            className="inline-block cursor-pointer lg:hidden"
+            width={40}
+            height={40}
+            className="inline-block cursor-pointer xl:hidden"
         />
     </nav>
+</div>
+
   )
 }
 
