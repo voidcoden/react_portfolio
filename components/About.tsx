@@ -9,30 +9,30 @@ const About = () => {
           About Me
         </h1>
       </div>
+      <div className='flex justify-center items-center'>
+        <div className="max-container flex flex-col xl:flex-row border-2 px-10 border-green-500 ">
+          <div className="relative w-full p-5 border-red-500">
+            <Image 
+              src = "/myphoto.jpg"
+              alt = "myphoto"
+              width={1000}
+              height={1000}
+              className="w-full object-cover sm:w-[500px] sm:h-[500px] sm:mx-auto"
+            />
+          </div>
 
-      <div className="max-container flex flex-col md:gap-28 xl:flex-row border-2 px-10 border-green-500">
-        <div className="relative w-full p-5 border-red-500">
-          <Image 
-            src = "/myphoto.jpg"
-            alt = "myphoto"
-            width={1000}
-            height={1000}
-            className="w-full object-cover"
-          />
-        </div>
-
-        <div className="bg-green-60 shadow-hardShadowWhite p-5">
-          <h2 className="bold-32 sm:bold-32 xl:bold-52">Greetings!</h2>
-          <p className="regular-16 sm:regular-24 xl:regular-32">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          </p>
-          <br></br>
-          <p className="regular-16 sm:regular-24 xl:regular-32">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div className="bg-green-60 shadow-hardShadowWhite p-5">
+            <h2 className="bold-20 lg:bold-32 xl:bold-52 pb-5">Greetings!</h2>
+            <p className="regular-16 lg:regular-24 xl:regular-32">
+              I am a full stack developer, and game developer based in Selangor, Malaysia &#128522;. I am passionate in catering my works in becoming a better full stack programmer.  
+            </p>
+            <br></br>
+            <p className="regular-16 lg:regular-24 xl:regular-32">
+              During my free time, I enjoy reading, playing games, working out &#129495;.
+            </p>
+          </div>
         </div>
       </div>
-
     </section>
   )
 }
