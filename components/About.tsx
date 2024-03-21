@@ -10,10 +10,10 @@ const About = () => {
         </h1>
       </div>
       <div className='flex justify-center items-center'>
-        <div className="max-container flex flex-col xl:flex-row border-2 px-10 border-green-500 ">
+        <div className="max-container flex flex-col xl:flex-row px-10 ">
           <div className="relative w-full p-5 border-red-500">
             <Image 
-              src = "/myphoto2.jpg"
+              src = "/myphoto1.jpg"
               alt = "myphoto"
               width={1000}
               height={1000}
