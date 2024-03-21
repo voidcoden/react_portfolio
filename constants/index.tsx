@@ -1,9 +1,9 @@
 // Nav bar 
 export const NAV_LINKS = [
-    { href: '/', key: 'about', label: '.about()'},
-    { href: '/', key: 'experience', label: '.experience()'},
-    { href: '/', key: 'projects', label: '.projects()'},
-    { href: '/', key: 'contacts', label: '.contacts()'},
+    { href: '/#about', key: 'about', label: '.about()'},
+    { href: '/#experience', key: 'experience', label: '.experience()'},
+    { href: '/#projects', key: 'projects', label: '.projects()'},
+    { href: '/#contacts', key: 'contacts', label: '.contacts()'},
 ];
 
 // Projects

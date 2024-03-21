@@ -19,17 +19,6 @@ const Hero = () => {
                 </p>
             </div>
         </div>
-        <div className="relative h-16 w-32">
-            <div className="absolute bottom-0 left-0 h-10 w-16">
-                <Image 
-                    src="arrow.svg"
-                    alt="arrow"
-                    width={40}
-                    height={40}
-                    className="inline-block cursor-pointer "
-                />
-            </div>
-        </div>
     </section>
   )
 }

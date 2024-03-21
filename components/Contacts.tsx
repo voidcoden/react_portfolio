@@ -1,9 +1,8 @@
 import React from 'react'
-import Image from 'next/image'
 
 const Contacts = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 md:gap-20 xl:py-28 border-2 border-green-500 h-dvh mt-20h-screen justify-center">
+    <section id="contacts" className="max-container padding-container flex flex-col gap-20 py-10 md:gap-20 xl:py-28 border-2 border-green-500 h-dvh mt-20h-screen justify-center">
     <div className="relative z-20 flex flex-col border-2 border-green-500">
         <div className="bg-green-80 relative mt-10 z-10 shadow-hardShadowRight py-10">
             <h1 className="text-center bold-32 sm:bold-64 xl:bold-128 ">
