@@ -42,6 +42,7 @@ module.exports = {
         hardShadowRight: '10px 10px 0px 0px rgba(0,0,1)',
         hardShadowLeft: '-10px 10px 0px 0px rgba(0,0,1)',
         hardShadowWhite: '10px 10px 0px 0px rgba(255,255,255)',
+        hardShadowWhiteSmall: '5px 5px 0px 0px rgba(255,255,255)'
       },
 
       backgroundImage: {
