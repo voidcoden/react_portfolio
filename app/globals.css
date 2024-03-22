@@ -157,9 +157,8 @@ body {
 }
 
 html {
-  /* --scroll-behavior: smooth!important;
-  scroll-behavior: smooth!important; */
-  scroll-behavior: smooth;
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
