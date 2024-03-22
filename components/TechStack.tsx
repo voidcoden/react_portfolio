@@ -12,7 +12,7 @@ const TechStack = () => {
         <div className="max-container flex flex-col xl:flex-row px-10">
 
           <div className="bg-green-80 shadow-hardShadowLeft p-5 relative xl:w-[400px] mt-5 mr-5">
-            <h2 className="bold-20 lg:bold-32 xl:bold-52 pb-5">FrontEnd</h2>
+            <h2 className="bold-32 xl:bold-52 pb-5">FrontEnd</h2>
           </div>
 
           <div className="bg-green-60 shadow-hardShadowRight p-5 relative xl:w-[1100px] mt-5">
@@ -26,7 +26,7 @@ const TechStack = () => {
         <div className="max-container flex flex-col xl:flex-row px-10">
 
           <div className="bg-green-80 shadow-hardShadowLeft p-5 relative xl:w-[400px] mr-5 mt-5">
-            <h2 className="bold-20 lg:bold-32 xl:bold-52 pb-5">BackEnd</h2>
+            <h2 className="bold-32 xl:bold-52 pb-5">BackEnd</h2>
           </div>
 
           <div className="bg-green-60 shadow-hardShadowRight p-5 relative xl:w-[1100px] mt-5">
