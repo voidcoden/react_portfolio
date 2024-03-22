@@ -9,10 +9,11 @@ export const NAV_LINKS = [
 // Projects
 
 export const IMAGE_LINKS = [
-    "https://example.com/image1",
-    "https://example.com/image2",
-    "https://example.com/image3",
-    "https://example.com/image4"
+    // "https://example.com/image1"
+    "",
+    "",
+    "",
+    ""
 ];
 
 export const PROJECT_TITLE = [
@@ -28,3 +29,10 @@ export const TECH_STACKS = [
     ["Angular", "Sass"],
     ["Next.js", "Material-UI"]
   ];
+
+export const PROJECT_DESC = [
+    ["hello"],
+    ["Greeting"],
+    ["Test"],
+    ["Howdy"]
+]

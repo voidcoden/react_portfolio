@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div className="hidden bg-green-50 relative z-10 px-5 pt-1 xl:flex shadow-hardShadowLight">
                     <ul className="hidden h-full gap-5 lg:flex">
                         {NAV_LINKS.map((link) => (
-                            <Link href={link.href} key={link.key} className="medium-32 flexCenter cursor-pointer pb-1.5 transition-all hover:text-white-10 hover:opacity-45">
+                            <Link href={link.href} key={link.key} className="medium-32 flexCenter cursor-pointer pb-1.5 hover:text-white-0 transition duration-300">
                                 {link.label}
                             </Link>
                         ))}
