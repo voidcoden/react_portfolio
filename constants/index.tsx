@@ -31,8 +31,8 @@ export const TECH_STACKS = [
   ];
 
 export const PROJECT_DESC = [
-    ["hello"],
-    ["Greeting"],
-    ["Test"],
-    ["Howdy"]
+    ["Coming Soon"],
+    ["Coming Soon"],
+    ["Coming Soon"],
+    ["Coming Soon"]
 ]

@@ -15,23 +15,25 @@ function Projects() {
         <div className="flex-col relative p-2" key={item}>
           <a href={IMAGE_LINKS[item - 1]} className="w-full h-full relative block">
             <Image 
-              src={`/myphoto${item}.jpg`}
-              alt={`myphoto-${item}`}
-              width={1000}
-              height={1000}
+              // src={`/myphoto${item}.jpg`}
+              // alt={`myphoto-${item}`}
+              src={`/Blur${item}.jpg`}
+              alt={`Blur-${item}`}
+              width={250}
+              height={250}
               className="w-full object-cover sm:w-[500px] sm:h-[500px] sm:mx-auto"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-300">
               <div className="text-white text-center p-4">
-                <h2 className="text-2xl font-semibold mb-2">{PROJECT_DESC[item - 1]}</h2>
+                <h2 className="text-2xl font-semibold mb-2 text-white-0">{PROJECT_DESC[item - 1]}</h2>
                 <div className="flex flex-wrap">
                   {PROJECT_TITLE[item - 1].map((tech, index) => (
-                    <div key={index} className="bg-green-50 text-sm m-1.5 p-1.5 shadow-hardShadowWhiteSmall">{tech}</div>
+                    <div key={index} className="bg-green-50 medium-20 m-1.5 p-1.5 shadow-hardShadowWhiteSmall">{tech}</div>
                   ))}
                 </div>
                 <div className="flex flex-wrap">
                   {TECH_STACKS[item - 1].map((tech, index) => (
-                    <div key={index} className="bg-green-70 text-sm m-1.5 p-1.5 shadow-hardShadowWhiteSmall">{tech}</div>
+                    <div key={index} className="bg-green-70 medium-20 m-1.5 p-1.5 shadow-hardShadowWhiteSmall">{tech}</div>
                   ))}
                 </div>
               </div>
