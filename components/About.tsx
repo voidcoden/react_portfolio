@@ -13,7 +13,7 @@ const About = () => {
         <div className="max-container flex flex-col xl:flex-row px-10 ">
           <div className="relative w-full p-5 border-red-500">
             <Image 
-              src = "/myphoto1.jpg"
+              src = "/myphoto.png"
               alt = "myphoto"
               width={1000}
               height={1000}
