@@ -41,7 +41,7 @@ const Contacts = () => {
                     className="mr-2 xl:mr-5 xl:w-[50px] xl:h-[50px]"
                 />
             </a>
-            <button className="bg-green-50 p-3 xl:p-4 shadow-hardShadowLight" onClick={() => window.open("/Syafiq-Resume.pdf")}><p className="bold-16 text-center sm:bold-24 xl:bold-32 hover:text-white-10 hover:opacity-80 hover:scale-105 hover:underline transition duration-300">Resume</p></button>
+            <button className="bg-green-50 p-3 xl:p-4 shadow-hardShadowLight" onClick={() => window.open("/Syafiq-CV.pdf")}><p className="bold-16 text-center sm:bold-24 xl:bold-32 hover:text-white-10 hover:opacity-80 hover:scale-105 hover:underline transition duration-300">CV</p></button>
         </div>
     </div>
 
