@@ -10,7 +10,7 @@ export const NAV_LINKS = [
 
 export const IMAGE_LINKS = [
     // "https://example.com/image1"
-    "https://syafiqazmanportfolio.vercel.app/",
+    "https://github.com/voidcoden/react_portfolio",
     "https://github.com/voidcoden/myrecipeapp",
     "",
     ""
