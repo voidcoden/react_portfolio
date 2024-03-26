@@ -25,14 +25,14 @@ export const PROJECT_TITLE = [
 
 export const TECH_STACKS = [
     ["React", "Next.js", "Tailwind"],
-    ["Angular", "Bootstrap"],
+    ["Angular", "Bootstrap", "SpringBoot", "Java"],
     ["soon", "soon"],
     ["soon", "soon"]
   ];
 
 export const PROJECT_DESC = [
     ["A personal portfolio project"],
-    ["A personal recipe page"],
+    ["Go Recipe project (In progress)"],
     ["Coming Soon"],
     ["Coming Soon"]
 ]
