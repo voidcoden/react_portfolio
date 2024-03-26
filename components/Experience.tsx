@@ -52,7 +52,7 @@ const Experience = () => {
             <br></br>
 
             <ul className="list-disc pl-5">
-              <li className="regular-20 lg:regular-24 xl:regular-32">CGPA: <span className="bold-24"> 3.56</span>/4.00 </li>
+              <li className="regular-20 lg:regular-24 xl:regular-32">CGPA: <span className="bold-24 xl:bold-32"> 3.56</span>/4.00 </li>
               <li className="regular-20 lg:regular-24 xl:regular-32">FYP: VR Kaiju Game. (Unity, C#)</li>
               <li className="regular-20 lg:regular-24 xl:regular-32">MUET: Band 4.5</li>
             </ul>

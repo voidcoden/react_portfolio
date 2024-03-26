@@ -23,7 +23,7 @@ function Projects() {
               height={250}
               className="w-full object-cover sm:w-[500px] sm:h-[500px] sm:mx-auto"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-md opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 hover:opacity-100 transition-opacity duration-300">
               <div className="text-white text-center p-4">
                 <h2 className="text-2xl font-semibold mb-2 text-white-0">{PROJECT_DESC[item - 1]}</h2>
                 <div className="flex flex-wrap">

@@ -16,7 +16,7 @@ const TechStack = () => {
           </div>
 
           <div className="bg-green-60 shadow-hardShadowRight p-5 relative xl:w-[1100px] mt-5">
-            <h2 className="bold-20 lg:bold-32 xl:bold-40">Javascript, Typescript, HTML, CSS, Tailwind, Figma, Next.js, </h2>
+            <h2 className="bold-20 lg:bold-32 xl:bold-40">Javascript, Typescript, HTML, CSS, Tailwind, Bootstrap, Next.js, Angular, React </h2>
           </div>
 
         </div>
@@ -30,7 +30,7 @@ const TechStack = () => {
           </div>
 
           <div className="bg-green-60 shadow-hardShadowRight p-5 relative xl:w-[1100px] mt-5">
-            <h2 className="bold-20 lg:bold-32 xl:bold-40 pb-5">Node JS, Django, IndexedDB, Express, Git, MongoDB</h2>
+            <h2 className="bold-20 lg:bold-32 xl:bold-40 pb-5">Node JS, Django, IndexedDB, Express, Git, SpringBoot </h2>
           </div>
 
         </div>

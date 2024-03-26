@@ -10,29 +10,29 @@ export const NAV_LINKS = [
 
 export const IMAGE_LINKS = [
     // "https://example.com/image1"
-    "",
-    "",
+    "https://syafiqazmanportfolio.vercel.app/",
+    "https://github.com/voidcoden/myrecipeapp",
     "",
     ""
 ];
 
 export const PROJECT_TITLE = [
-    ["Project1"],
-    ["Project2"],
+    ["Portfolio"],
+    ["GoRecipe"],
     ["Project3"],
     ["Project4"]
 ];
 
 export const TECH_STACKS = [
-    ["React", "Tailwind CSS"],
-    ["Vue", "Bootstrap"],
-    ["Angular", "Sass"],
-    ["Next.js", "Material-UI"]
+    ["React", "Next.js", "Tailwind"],
+    ["Angular", "Bootstrap"],
+    ["soon", "soon"],
+    ["soon", "soon"]
   ];
 
 export const PROJECT_DESC = [
-    ["Coming Soon"],
-    ["Coming Soon"],
+    ["A personal portfolio project"],
+    ["A personal recipe page"],
     ["Coming Soon"],
     ["Coming Soon"]
 ]

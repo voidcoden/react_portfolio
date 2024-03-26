@@ -23,12 +23,12 @@ const About = () => {
 
           <div className="bg-green-60 shadow-hardShadowWhite p-5">
             <h2 className="bold-20 lg:bold-32 xl:bold-52 pb-5">Greetings!</h2>
-            <p className="regular-16 lg:regular-24 xl:regular-32">
-              I am a full stack developer, and game developer based in Selangor, Malaysia &#128522;. I am passionate in catering my works in becoming a better full stack programmer.  
+            <p className="regular-16 lg:regular-24 xl:regular-28">
+              I&apos;m a dedicated full stack and game developer based in Selangor, Malaysia. I&apos;m passionate about constantly improving my skills in programming.   
             </p>
             <br></br>
-            <p className="regular-16 lg:regular-24 xl:regular-32">
-              During my free time, I enjoy reading, playing games, working out &#129495;.
+            <p className="regular-16 lg:regular-24 xl:regular-28">
+              When I&apos;m not coding, you can find me immersed in books, gaming, or hitting the gym. I&apos;m always eager to explore new opportunities and collaborate with others in the tech and gaming community.
             </p>
           </div>
         </div>
