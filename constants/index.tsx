@@ -11,9 +11,9 @@ export const NAV_LINKS = [
 export const IMAGE_LINKS = [
     // "https://example.com/image1"
     "https://github.com/voidcoden/react_portfolio",
-    "https://github.com/voidcoden/myrecipeapp",
-    "",
-    ""
+    "https://github.com/voidcoden/gorecipeapp",
+    "https://github.com/voidcoden",
+    "https://github.com/voidcoden"
 ];
 
 export const PROJECT_TITLE = [
